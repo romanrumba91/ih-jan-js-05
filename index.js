@@ -41,3 +41,21 @@ swimming200Men: "Michael Phelps",
  refresco["competidor"] = "Pepsi"
 
  console.log(refresco)
+
+ //Propiedades y ciclos 
+ // Metodo que permite convertir las propiedades de un objeto en elementos de un arreglo
+
+ const arrRefresco = Object.keys(refresco)
+ console.log(arrRefresco)
+
+
+//for... in
+
+for (let key in refresco){
+
+    console.log(`La propiedad es : ${key}`)
+    console.log(`la propiedad es: ${key} y su valor es ${refresco[key]}`)
+}
+
+//arreglo con objetos
+
